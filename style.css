@@ -1,52 +1,46 @@
-body (
-      margin: 0px:
+/*selector {
+	Property: value:;
+}*/
+
+body {
+       background-image: url(backgroundimage.jpg);
+       background-size: cover;
 	)
-
-.container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-
-h1 {
-	font-family:fantasy;
-	font-size:3em;
-	border-bottom: 3px solid pink;
-	border-right: 2px solid pink;
-	width:1300px;
+h2 + p {
+	color: red;
 	text-align: center;
-	box-shadow: 4px 4px 5px #888888
-	color:#000010;
-
-}
-p  {
-	text-align:center;
-	font-size:1.5em;
-	font-family:Helvetica;
-	color: white;
+	border: 5px dashed purple(255, 176, 170,0.5);
+	cursor: pointer; 
 }
 
-.center {
-
-display:block;
-margin-left:auto;
-margin-right:auto;
-width:50%;
-
-}
-img {
-	width:550px;
-	height:300px;
-	margin:50px;
-	transition: all 1s;
+p{
+	color: pink; 
+	text-decoration: underline;
 }
 
-img:hover {
-	animation 
-	transform: scale(1.1);
+p { 
+    color: green;
+    text-decoration:line-through;
+    line-height:40px;
+    font-family: "Times News Romans", Georgia
+ }
+
+li {
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 150%;
+	font-family: Georgia;
 }
-a {
-	text-align:center;
-	size:1000px;
+
+.webtext {
+	border: 5px dashed green;
 }
+#div1 {
+	background: rgba(0,0,255,0.2);
+}
+#div2 {
+    background: rgba(0,0,255,0.2);
+	}
